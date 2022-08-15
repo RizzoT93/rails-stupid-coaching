@@ -1,0 +1,17 @@
+<div class="container" style="width: 500px">
+  <h1>Stupid Coaching</h1>
+  <blockquote>
+    <div class="callout-warning">
+      <%= @user_answer %>
+    </div>
+    <cite>you</cite>
+  </blockquote>
+
+  <blockquote>
+    <div class="coach_div">
+      <div> <%=@coach_answer%></div>
+      <cite>coach</cite>
+    </div>
+  </blockquote>
+  <%= link_to "Ask a new question", ask_path %>
+</div>
